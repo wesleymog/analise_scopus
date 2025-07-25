@@ -2,12 +2,6 @@
 
 Este projeto contém os scripts e dados utilizados na análise para o artigo "Resultados Iniciais de uma Rapid Review sobre Reuniões de Retrospectiva em Times Ágeis Remotos".
 
-## Autores
-
-- Wesley M. de O. Gomes
-- Rafael de Mello
-- Juliana S. F. França
-
 ## Resumo
 
 Este estudo realizou uma rapid review para investigar os desafios e práticas relacionados às reuniões de retrospectiva em times ágeis remotos de desenvolvimento de software. A partir da análise de oito artigos selecionados, foram identificadas categorias como "Formato das Retrospectivas", "Gerar planos de ação", "Dificuldade de se expressar" e "Retrospectiva como melhoria contínua". Os resultados destacam a importância de estruturar as retrospectivas para produzir ações tangíveis, diversificar os formatos para aumentar o engajamento em ambientes remotos e promover um ambiente inclusivo que facilite a comunicação. A análise resultou em um conjunto de boas práticas organizadas em categorias como condução metodológica, engajamento de participantes, acompanhamento de ações e inclusão de vozes sub-representadas. Essas práticas oferecem recomendações diretamente aplicáveis para equipes ágeis e facilitadores que atuam em contextos remotos.
