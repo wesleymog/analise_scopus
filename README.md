@@ -1,4 +1,4 @@
-# Initial Results of a Rapid Review on Retrospective Meetings in Remote Agile Teams
+# Practices and Challenges of Retrospective Meetings in Agile Teams: Insights from a Rapid Review
 
 This project contains the scripts and data used in the analysis for the research paper on retrospective meetings in remote agile software development teams.
 
