@@ -1,61 +1,61 @@
-# Resultados Iniciais de uma Rapid Review sobre Reuniões de Retrospectiva em Times Ágeis Remotos
+# Initial Results of a Rapid Review on Retrospective Meetings in Remote Agile Teams
 
-Este projeto contém os scripts e dados utilizados na análise para o artigo "Resultados Iniciais de uma Rapid Review sobre Reuniões de Retrospectiva em Times Ágeis Remotos".
+This project contains the scripts and data used in the analysis for the research paper on retrospective meetings in remote agile software development teams.
 
-## Resumo
+## Summary
 
-Este estudo realizou uma rapid review para investigar os desafios e práticas relacionados às reuniões de retrospectiva em times ágeis remotos de desenvolvimento de software. A partir da análise de oito artigos selecionados, foram identificadas categorias como "Formato das Retrospectivas", "Gerar planos de ação", "Dificuldade de se expressar" e "Retrospectiva como melhoria contínua". Os resultados destacam a importância de estruturar as retrospectivas para produzir ações tangíveis, diversificar os formatos para aumentar o engajamento em ambientes remotos e promover um ambiente inclusivo que facilite a comunicação. A análise resultou em um conjunto de boas práticas organizadas em categorias como condução metodológica, engajamento de participantes, acompanhamento de ações e inclusão de vozes sub-representadas. Essas práticas oferecem recomendações diretamente aplicáveis para equipes ágeis e facilitadores que atuam em contextos remotos.
+This study conducted a rapid review to investigate challenges and practices related to retrospective meetings in remote agile software development teams. Through the analysis of selected articles, categories such as "Retrospective Format", "Action Plan Generation", "Communication Difficulties", and "Retrospective as Continuous Improvement" were identified. The results highlight the importance of structuring retrospectives to produce tangible actions, diversifying formats to increase engagement in remote environments, and promoting an inclusive environment that facilitates communication. The analysis resulted in a set of best practices organized into categories such as methodological conduction, participant engagement, action follow-up, and inclusion of underrepresented voices. These practices offer directly applicable recommendations for agile teams and facilitators working in remote contexts.
 
-## Como usar
+## How to Use
 
-### Pré-requisitos
+### Prerequisites
 
 - Python 3.x
-- Bibliotecas listadas no arquivo `requirements.txt`
+- Libraries listed in the `requirements.txt` file
 
-### Instalação
+### Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
-   git clone <url-do-repositorio>
-   cd <nome-do-diretorio>
+   git clone <repository-url>
+   cd <directory-name>
    ```
 
-2. Crie e ative um ambiente virtual (recomendado):
+2. Create and activate a virtual environment (recommended):
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-3. Instale as dependências:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-### Executando os Scripts
+### Running the Scripts
 
-1.  **Gerar Análise de Categorias**:
-    Este script processa o arquivo `scopus_categorias_atualizadas_rq1_final.csv` e gera o arquivo `analise_categorias.csv`, que agrega e consolida os dados.
+1.  **Generate Category Analysis**:
+    This script processes the input data file and generates the analysis output file, which aggregates and consolidates the data.
 
     ```bash
     python gerar_analise_categorias.py
     ```
 
-2.  **Gerar Gráficos**:
-    Este script utiliza o arquivo `scopus_categorias_atualizadas_rq1_final.csv` para gerar os gráficos da análise, salvando-os no diretório `graficos_gerados/`.
+2.  **Generate Charts**:
+    This script uses the input data file to generate analysis charts, saving them in the `graficos_gerados/` directory.
 
     ```bash
     python gerador_graficos.py
     ```
 
-## Estrutura do Projeto
+## Project Structure
 
-- `analise_categorias.csv`: Saída do script de análise.
-- `gerador_graficos.py`: Script para gerar os gráficos.
-- `gerar_analise_categorias.py`: Script para processar e analisar os dados.
-- `graficos_gerados/`: Diretório onde os gráficos gerados são salvos.
-- `scopus_categorias_atualizadas_rq1_final.csv`: Dados brutos utilizados como entrada.
-- `README.md`: Este arquivo.
-- `requirements.txt`: Lista de dependências Python.
+- `analise_categorias.csv`: Output from the analysis script.
+- `gerador_graficos.py`: Script to generate charts.
+- `gerar_analise_categorias.py`: Script to process and analyze data.
+- `graficos_gerados/`: Directory where generated charts are saved.
+- `input_data.csv`: Raw data used as input.
+- `README.md`: This file.
+- `requirements.txt`: Python dependencies list.
